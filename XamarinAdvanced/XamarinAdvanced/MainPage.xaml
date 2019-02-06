@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:trigger="clr-namespace:XamarinAdvanced.Triggers"
+             xmlns:controls="clr-namespace:XamarinAdvanced.Controls"
+             x:Class="XamarinAdvanced.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            
+            <Style x:Key="OneSwitchStyle" TargetType="Switch">
+                <Style.Triggers>
+                    <EventTrigger Event="Toggled">
+                        <trigger:ToggledEventTrigger />
+                    </EventTrigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout x:Name="thisLayout">
+
+            <controls:SwitchGroupLayout x:Name="MainSwitchGroup" OpcaoCorretaIndex="1">
+                <Switch/>
+                <Switch/>
+                <Switch/>
+            </controls:SwitchGroupLayout>
+            <!--
+            <StackLayout>
+                <StackLayout.Resources>
+                    <ResourceDictionary>
+                        <Style TargetType="Switch">
+                            <Style.Triggers>
+                                <EventTrigger Event="Toggled">
+                                    <trigger:ToggledEventTrigger />
+                                </EventTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </ResourceDictionary>
+                </StackLayout.Resources>
+                
+            </StackLayout>-->
+
+            <Switch Style="{StaticResource OneSwitchStyle}"/>
+            <Switch Style="{StaticResource OneSwitchStyle}"/>
+            <Switch Style="{StaticResource OneSwitchStyle}"/>
+
+            <Button Text="Clique-me" IsEnabled="{Binding Source={x:Reference MainSwitchGroup}, Path=IsSelect}">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+
+
+
+
+</ContentPage>

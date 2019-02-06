@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinAdvanced.Views.LoginLayout"
+             BackgroundImage="onibus_gif.gif"
+             >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color
+                x:Key="MyColor">
+                <x:Arguments>
+                    <x:Double>.4</x:Double>
+                    <!-- R/255 -->
+                    <x:Double>.62</x:Double>
+                    <!-- G/255 -->
+                    <x:Double>.95</x:Double>
+                    <!-- B/255 -->
+                    <x:Double>.2</x:Double>
+                    <!-- A: 0.0-1.0 -->
+                </x:Arguments>
+            </Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content >
+        <StackLayout x:Name="Layout" BackgroundColor="Blue" Opacity="0.5">
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

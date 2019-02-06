@@ -1,0 +1,13 @@
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\bin\Debug\netstandard2.0\XamarinAdvanced.deps.json
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\bin\Debug\netstandard2.0\XamarinAdvanced.dll
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\bin\Debug\netstandard2.0\XamarinAdvanced.pdb
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\obj\Debug\netstandard2.0\XamarinAdvanced.csprojResolveAssemblyReference.cache
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\obj\Debug\netstandard2.0\XamarinAdvanced.csproj.CoreCompileInputs.cache
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\obj\Debug\netstandard2.0\XamarinAdvanced.AssemblyInfoInputs.cache
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\obj\Debug\netstandard2.0\XamarinAdvanced.AssemblyInfo.cs
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\obj\Debug\netstandard2.0\XamarinAdvanced.dll
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\obj\Debug\netstandard2.0\XamarinAdvanced.pdb
+C:\Users\Mateus\source\repos\XamarinAdvanced\XamarinAdvanced\XamarinAdvanced\obj\Debug\netstandard2.0\Views\LoginLayout.xaml.g.cs
